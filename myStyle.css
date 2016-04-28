@@ -1,0 +1,33 @@
+.navbar-brand {
+  background-color: #4dd2ff;
+  
+}
+
+.navbar-collapse {
+  background-color: #4dd2ff;
+  letter-spacing:4px;
+}
+
+.aboutbody {
+  background-color: #ccffff;
+}
+
+
+/*this is for the jumbotron*/
+.new {
+  padding: 50px 10px;
+  text-align: center;
+}
+
+.jumbotron-background {
+  padding: 0px;
+  margin: 0px;
+  background-image: url(Pictures/backcountry.jpg);
+  background-size:cover;
+  
+}
+
+
+
+
+

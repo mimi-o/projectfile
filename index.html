@@ -59,12 +59,6 @@
                </ul>
          </li>
    
-   <!--<form class="navbar-form navbar-right" role="search">
-            <div class="form-group">
-            <input type="text" class="form-control" placeholder="Email">
-            </div>
-          <button type="submit" class="btn btn-default"></span>Submit</button>
-         </form>-->
    
    <!--Contact Us Section-->
     <ul class="nav navbar-nav navbar-right ">
@@ -99,15 +93,15 @@
     <div class="col-xs-4 col-sm-4 col-md-4">
       <div class="thumbnail">
       <p>Ice Climbing</p>
-      <img src="Pictures/IceClimbing.jpg" alt='IceClimbing' class="img-responsive" style="width:100%" alt="Image" >
-      <p>Experience the thrill of climbing frozen waterfalls and glaciers.</p>
+      <img src="Pictures/IceClimbing.jpg" alt='IceClimbing' class="img-responsive"  alt="Image" style="width:350px;height:199px">
+      <p>Experience the thrill of climbing frozen waterfalls and glaciers. Discover cascading waterfalls and view awe inspiring ice formations.</p>
       </div> <!--thumbnail-->
     </div>
     
     <div class="col-xs-4 col-sm-4 col-md-4"> 
       <div class="thumbnail">
       <p>Snow Kiting</p>
-      <img src="http://xtremesport4u.com/wp-content/uploads/2011/01/snow-kite-surfing.jpg" class="img-responsive"  alt="Kiting" >
+      <img src="http://xtremesport4u.com/wp-content/uploads/2011/01/snow-kite-surfing.jpg" class="img-responsive"  alt="Kiting" style="width:350px;height:199px" >
       <p>Take your kites on a flight to glide on snow or ice. Its kite boarding on snow. Its an opportunity to see the city from a birds eyeview.</p>
       </div><!--thumbnail-->
     </div>
@@ -115,21 +109,21 @@
     <div class="col-xs-4 col-sm-4 col-md-4"> 
       <div class="thumbnail">
       <p>Skijoring</p>
-      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRATHKZTAvO-cyQsjct6jAAza_J7eoyXy_iXZSbqWXqP77dKish" class="img-responsive" style="width:100%" alt="Skiorin">
-      <p>Cross country ski with a dog or horse pulling the skier across the snow trails.It originated in Scandinavia 700 years ago as a means of transport during the winter months.<p>
+      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRATHKZTAvO-cyQsjct6jAAza_J7eoyXy_iXZSbqWXqP77dKish" class="img-responsive"  alt="Skiorin"style="width:350px;height:180px" >
+      <p>Cross country ski with a dog or horse pulling the skier across the snow trails. It originated in Scandinavia 700 years ago as a means of transport during the winter months.<p>
         </div> <!--thumbnail-->
     </div>
   </div> <!--end of row-->
 </div><br> <!--end of 2nd container-->
 
 <!--Start of Carousel-->
-<style>
+<!--<style>
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 35%;
       margin: auto;
   }
-</style>
+</style>-->
 
 <div class="container">
   <br>
@@ -146,19 +140,33 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="Pictures/g_norway.jpg" alt="Norway" width="300" height="100">
-      </div>
+        <img src="Pictures/g_norway.jpg" alt="Norway" >
+          <div class="container">
+              <div class="carousel-caption">
+                <h4>Norway</h4>
+              </div>
+          </div>
+      </div>    
 
       <div class="item">
-        <img src="Pictures/swissresort.jpg" alt="SwissResort" width="300" height="300">
+        <img src="http://blog.purentonline.com/wp-content/uploads/2013/03/St-Moritz-ski-resort-switzerland.jpg" alt="SwissResort" >
+            <div class="carousel-caption ">
+              <h4> SwissResort</h4>
+            </div>  
       </div>
     
       <div class="item">
-        <img src="Pictures/whistler.jpg" alt="Whistler" width="300" height="100">
+        <img src="Pictures/whistler.jpg" alt="Whistler" >
+        <div class="carousel-caption ">
+           <h4>Whistler,Canada</h4>
+           </div>
       </div>
 
       <div class="item">
-        <img src="Pictures/alaskalight.jpg" alt="Alaska" width="300" height="100">
+        <img src="Pictures/alaskalight.jpg" alt="Alaska" >
+        <div class="carousel-caption ">
+         <h4>Aurora Borealis </h4>
+         </div>
       </div>
     </div>
 
@@ -176,7 +184,7 @@
 <!--end of Carousel-->
 
 <!--start of slide section-->
-
+<!--
 <style> 
 #list, #park,#aurora,#glacier {
     padding: 25px;
@@ -199,16 +207,16 @@
     padding: 5px;
     display: none;  
 }  
-</style> 
+</style> -->
 
-<body>
+ <div class= "listing">   
          
-<div id="list">Click to view list of Alaska Attractions</div>
+<div id="list">Click to view Alaska Attractions</div>
 <div id="park">Denali National Park</div>
 <div id="aurora">The Aurora Borealis</div>
 <div id="glacier">Mendenhall Glacier</div>
+ </div>  <!--end of toggle slide-->
 
-</body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script type="text/javascript" src="sportsJava.js"></script>
 
